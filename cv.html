@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume by Poporobright</title>
+    <style>
+        /* This styles the gray background behind the page */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* This is the "paper" page from image_3552b4.jpg */
+        .resume-container {
+            background-color: white;
+            border: 1px solid #000;
+            width: 800px; /* Standard letter-ish width */
+            min-height: 1000px;
+            padding: 60px; /* This automatically leaves a perfect margin inside all around the text */
+            box-sizing: border-box;
+        }
+
+        /* Clean up the horizontal line */
+        hr {
+            border: none;
+            border-top: 2px solid black;
+            margin-bottom: 30px;
+        }
+
+        /* Typography matching image_3552b4.jpg */
+        h1 {
+            font-size: 32px;
+            margin: 0 0 5px 0;
+            color: #000;
+        }
+
+        .subtitle {
+            color: #2e7d32; /* A nice resume-green */
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 20px 0;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            color: #2e7d32;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            color: #1565c0; /* Blue for company/school names */
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 5px 0;
+        }
+
+        .dates {
+            font-size: 14px;
+            color: #333;
+            margin: 0 0 10px 0;
+        }
+
+        p, li {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #000;
+        }
+
+        ul {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The container aligns everything inside it automatically -->
+    <div class="resume-container">
+        
+        <hr>
+
+        <h1>Your Name</h1>
+        <div class="subtitle">Junior Frontend Developer</div>
+
+        <div class="contact-info">
+            123 Your Street<br>
+            Your City, ST 12345<br>
+            (123) 456-7890<br>
+            no_reply@example.com
+        </div>
+
+        <div class="section-title">Skills</div>
+        <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation</p>
+
+        <div class="section-title">Education</div>
+        <div class="job-title">School Name, Location - Degree</div>
+        <div class="dates">Month 20xx to Month 20xx</div>
+        <p>List of exciting things you did at university</p>
+
+        <div class="section-title">Experience</div>
+        
+        <div class="job-title">Company Name, Location - Job Title</div>
+        <div class="dates">Month 20xx to Month 20xx</div>
+        <ul>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+
+        <div class="section-title">Across the Internet</div>
+        <p>Add your LinkedIn, GitHub profile links</p>
+
+    </div>
+
+</body>
+</html>
